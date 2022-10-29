@@ -120,12 +120,13 @@ a:hover{
     
 }
 
-/* .right-side img{ 
+.right-side img{ 
+    width: 100%;
+    
+    /* bunu yazanda responsive olur mobile cihazlar ucun yazmayanda her iki versiyada owerflow yaranir */
     
 
-    width: 100%;
-
-} */
+}
 
 .bacbtn{
     background-color:#000;
@@ -214,7 +215,6 @@ a::selection{
 }
 
 .provides-first li{
-    color: #000;
     line-height: 35px;
     font-weight: 700;
 }
@@ -261,6 +261,7 @@ width: 52px;
     color: #000;
     line-height: 35px;
     font-weight: 700;
+    
 }
 
 .projects{
@@ -324,6 +325,8 @@ width: 52px;
     
     .header{
         padding: 20px;
+        padding: 0%;
+        
     }
     .nav-links{
         display: none;
@@ -331,22 +334,57 @@ width: 52px;
     .fa-bars{
         display: flex;
     }
+    .header img{
+        padding: 0%;
+        margin: 0%;
+    }
     
     
 }
 
-@media(max-width: 1300px) {
-      .content{
-        flex-direction: column;
-        
-      }
-      
-} 
 
-  @media(max-width:100px) and (min-width:20px)  { 
-  .content .left-side h1{
-    font-size: 3.5rem;
+@media(max-width:1363px) {
+    .content{
+      flex-direction: column;
+      padding: 0;
+      flex-basis: 60%;
+    }
+    
+    
+  
+    .left-side  {
+      padding-left: 20px;
+    }
+   
+    .content .right-side{
+        min-width: 400px;
+        max-width: 40%;
+        
+    }
    
   }
   
-} 
+  @media(max-width:859px) and (min-width:768px) {
+    .content .left-side h1{
+     font-size: 3.5rem;
+    }
+   
+
+  }
+  
+  
+  @media(min-width:576px) and (max-width:768px) {
+    .content {
+      padding: 0;
+   }
+    .content .left-side h1 {
+       text-align: center;
+       font-size: 3.5rem;
+    }
+    
+  }
+
+ul {
+    list-style-position: inside;
+}
+
