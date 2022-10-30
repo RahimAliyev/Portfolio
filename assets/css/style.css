@@ -219,6 +219,14 @@ a::selection{
     font-weight: 700;
 }
 
+/* .services-details:hover{
+    background-color: #d04a08;
+    
+} */
+
+
+
+
 .provides-first img{
     width: 52px;
 }
@@ -270,12 +278,12 @@ width: 52px;
     padding-left: 3%;
 }
 
-.Top{
+.text-section{
     display: flex;
     padding-right: 67px;
 }
 
-.Top h1{
+.text-section h1{
     font-family: Roboto;
     font-weight: 700;
     font-size: 35px;
@@ -291,9 +299,11 @@ width: 52px;
     cursor: pointer;
 }
 
-.boxes{
+
+.boxes-top{
     display: flex;
     justify-content: space-around;
+   
     padding-top: 2%;
     width: 100%;
 }
@@ -305,17 +315,33 @@ width: 52px;
     height: 200px;
 }
 
-.bg-branding{
+
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+   width: inherit;
+    height:100px ;
+    
+
+}
+.boxes-bottom{
+    display: flex;
+   
+    justify-content: space-around;
+}
+
+.bg-orange{
     background-image: url(../../branding.pic.svg);
     background-size: 318px;
 }
 
-.bg-productdesign{
+.bg-red{
     background-image: url(../svgs/product-pic.svg);
     background-size: 318px;
 }
 
-.bg-webdesign{
+.bg-ocean{
     background-image: url(../svgs/webdesign-pic.svg);
     
 }
@@ -361,6 +387,7 @@ width: 52px;
         max-width: 40%;
         
     }
+    
    
   }
   
