@@ -447,7 +447,7 @@ width: 52px;
 
 
 .blog-bottom{
-    padding: 10px;
+    padding-top: 10px;
 
 }
 
@@ -666,7 +666,7 @@ flex: 1;
   
     
     padding-top: 40px;
-    padding-right: 30px;
+   padding-left: 15px;
 }
 
 .Testimonials-section .right-side{
@@ -677,7 +677,7 @@ flex: 1;
 .right-side-botton{
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 66px;
 }
 .right-side-center small{
     font-weight: 700;
@@ -694,15 +694,20 @@ flex: 1;
     align-items: flex-end;
 }
 
+.botton-down p{
+    font-size: 18px
+}
+
 .wots h4{
 color:  #4353FF;
 font-weight: 700;
-
+padding-top: 30px;
 padding-left: 50px;
 font-size: 25px;
 }
 
 .wots h2{
+    padding-top: 15px;
     padding-left: 50px;
     font-size: 54px;
 }
@@ -768,14 +773,18 @@ color: #fff;
 
 .info-right{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 900px;
-    text-align: end;
+    
+    
+    flex-basis: 60%;
+    
+
+    justify-content: space-evenly;
 }
 
-.info-right-left{
+.info-right-left, .info-right-center, .info-right-last{
     padding: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-right-center{
@@ -790,10 +799,7 @@ padding: 12px;
 
 
 
-.info-last{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 
@@ -855,6 +861,7 @@ padding-top: 12px;
 .info-bottom{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 .info-smth{
     display: flex;
@@ -869,7 +876,10 @@ padding-top: 12px;
 
 .info-bottom{
     padding-top: 150px;
+
+    width: 1394px;
 }
+
   .info .info-top h1{
     font-size: 35px;
   }
@@ -877,6 +887,17 @@ padding-top: 12px;
     font-size: 35px;
   }
 
+
+.info-bottom > .info-left {
+    flex-basis: 40%;
+   
+}
+
+.info-bottom > .info-right {
+    flex:1;
+
+
+}
 
 
 
@@ -972,12 +993,14 @@ padding-top: 12px;
 .blogs-section .right-side .blog{
     display: flex;
     flex-direction: column;
-     justify-content: flex-end;
-     align-items: flex-end;
     padding: 0%;
     
 }
 
+.blogs-section .left-side{
+    padding: 0;
+   
+}
 
 
 
@@ -1171,6 +1194,7 @@ padding-top: 12px;
     .info-right{
         display: flex;
         flex-direction: column;
+        
     }
 
 
@@ -1212,6 +1236,7 @@ padding-top: 12px;
 }
 
 
+
 .info-left p{
     padding-left: 20px;
 }
@@ -1230,6 +1255,37 @@ padding-top: 12px;
   .projects-section pre{
     padding-top: 15px;
   }
+
+
+
+  .info-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+  }
+
+
+  .work-timeline{
+    display: block;
+  }
+
+
+.heading{
+    text-align: center;
+}
+
+.work-experience .experience{
+    text-align: center;
+}
+
+
+
+.university-bottom{
+    display: block;
+}
+
+
+
 
 
   }
@@ -1251,16 +1307,8 @@ padding-top: 12px;
     
     
   
-    .left-side  {
-      padding-left: 20px;
-    }
-   
-    .content .right-side{
-        min-width: 400px;
-        max-width: 40%;
-        padding: 0%;
-        
-    }
+    
+  
 
   
     
@@ -1278,7 +1326,11 @@ padding-top: 12px;
 
 
 
-
+  .content .left-side button{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
 
 
 
@@ -1310,7 +1362,7 @@ padding-top: 12px;
     }
 
     .content{
-        flex-direction: column;
+       
         padding: 0;
         flex-basis: 60%;
       }
@@ -1383,6 +1435,7 @@ padding-top: 12px;
 .projects-card-section{
     display: block;
     flex-direction: column;
+    padding: 0%;
 }
 
 
@@ -1464,8 +1517,8 @@ padding-top: 12px;
 .text-and-article-section .right-side{
     display: flex;
     flex-direction: column;
-    padding: 0%;
-    margin: 0;
+  
+   
 }
 
 .pds-image .center img {
@@ -1567,11 +1620,7 @@ padding-top: 12px;
     }
 
 
-    .info-right{
-        display: flex;
-        flex-direction: column;
-    }
-
+   
 
     .educationandwork{
         display: flex;
@@ -1620,7 +1669,12 @@ padding-top: 12px;
     padding-left: 20px;
 }
 .info-right{
+    display: block;
     width: 100%;
+  }
+
+  .info-right-left, .info-right-center, .info-right-last{
+    display: block;
   }
 
   .projects-section h6{
@@ -1630,39 +1684,397 @@ padding-top: 12px;
     padding-top: 15px;
   }
 
+  .info-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:859px) and (max-width:1507px){
+
+
+
+
+
+
+
+
+
+
+    .content .left-side h1{
+        font-size: 3.50rem;
+       }
+       .work-top{
+           width: auto;
+       }
+   
+   
+   
+     .content .left-side button{
+       display: flex;
+       justify-content: space-around;
+       text-align: center;
+     }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       .header{
+           padding: 20px;
+           padding: 0%;
+           
+       }
+       .nav-links{
+           display: none;
+       }
+       .fa-bars{
+           display: flex;
+       }
+       .header img{
+           padding: 0%;
+           margin: 0%;
+   
+           padding-left: 20px;
+       }
+   
+       .content{
+          
+           padding: 0;
+           flex-basis: 60%;
+         }
+       .content .left-side h1{
+   
+           
+       line-height: 62px;
+       letter-spacing: 2px;
+       font-weight: 700;
+           
+       }
+   
+       .trusted-by .slide{
+           
+           width:  200px;
+       
+   }
+   
+   .right-side img{
+       
+       padding-left: 80px;
+   }
+   
+   .container{
+      padding: 20px;
+   }
+   .container >  .section > .services  h1 {
+       font-size: 22px;
+       line-height: 22px;
+       letter-spacing: 2px;
+   }
+   
+   
+   
+   .services-details img{
+       width: 40px;
+       
+      
+   }
+   
+   .projects h1{
+       font-size: 22px;
+       line-height: 22px;
+       letter-spacing: 2px;
+   }
+   
+   
+   .blogs-section{
+       display: flex;
+       flex-direction: column;
+      font-size: 20px;
+      padding: 0%;
+      margin: 0%;
+   }
+   .blogs-section .right-side .blog{
+       display: flex;
+       flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+       padding: 0%;
+       
+   }
+   
+   
+   
+   
+   
+   
+  
+   
+   .projects-card-section .card{
+       width: 0%;
+       height: 0%;
+       max-width: 0%;
+       padding: 0%;
+       margin: 0%;
+   }
+   
+   .view-all-projects{
+       display: block;
+       padding: 0%;
+       margin: 0%;
+   }
+   
+   .view-all-projects pre{
+       margin: 0%;
+       padding: 0%;
+       width: 30px;
+       font-size: 0px;
+       line-height: 50px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   .projects-text-section{
+       display: flex;
+       flex-direction: column;
+   }
+   .projects-text-section h6{
+       display: flex;
+       flex-direction: column;
+       font-size: 30px;
+   }
+   
+   .projects-text-section pre{
+       font-size: 40px;
+       
+   }
+   
+   
+   .card .card-bottom{
+       margin: 0%;
+       padding: 0%;
+   }
+   
+   
+   .card .card-top img{
+       width: 100%;
+       height: 100%;
+   }
+   
+   
+   
+   
+   
+ 
+   
+   
+   
+   
+   
+   .product-design-section-text h4{
+       font-size: 20px;
+       
+       
+   }
+   .product-design-section-text h2{
+       font-size: 20px;
+     
+       padding-top: 20px;
+   }
+   .product-design-section-text .right-side p{
+       padding-left: 30px;
+   }
+   
+   
+   .work-top{
+       width: auto;
+   }
+   
+   .work{
+      
+       padding: 0%;
+       margin: 0;
+   }
+   
+   .university{
+       
+       padding: 0;
+         flex-basis: 60%;
+       }
+   
+   
+       .Testimonials-section{
+           display: flex;
+           flex-direction: column;
+           padding-top: 40px;
+           padding-bottom: 10px ;
+           padding-left: 10px;
+   
+       }
+       .Testimonials-section .left-side img{
+           width: 300px;
+       }
+   
+       .img-and-text {
+           display: flex;
+           justify-content: space-between;
+       }
+   
+       .img-and-text .right-side-center small {
+           font-size: 30px;
+          
+       }
+    
+      
+   
+       .faq-text h2{
+           
+           font-weight: 700;
+           font-size: 30px;
+           
+       }
+   
+   
+      
+       .info-smth{
+        display: block;
+       }
+   
+      
+   
+   
+       .educationandwork{
+           display: flex;
+          justify-content: space-around;
+       }
+   
+      .educationandwork{
+        flex-basis: 40%;
+      }
+      
+      .work-experience{
+       flex-basis: 40%;
+       
+      
+      }
+      
+      .educationandwork .university{
+       padding-right: 6px;
+       flex-basis: 20%;
+      }
+   
+      
+   
+      
+   
+   .faq-text-section .blog {
+       width: 400px;
+   }
+   
+   .info-smth{
+       padding-bottom:4px;
+       display: flex;
+      
+       justify-content: space-around;
+   }
+   
+   
+   .info-left p{
+       padding-left: 20px;
+   }
+   
+   
+   .info-left small{
+       padding-left: 20px;
+   }
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
   
   @media(min-width:576px) and (max-width:768px) {
     
-    .content .left-side h1 {
+    .content >.left-side {
+        padding-left: 500px;
+    }
+    
+    /* .content .left-side h1 {
        text-align: center;
        font-size: 3.5rem;
     }
@@ -1680,7 +2092,7 @@ padding-top: 12px;
       display: flex;
     justify-content: center;
         line-height: 35px;
-    }
+    } */
 
     .work-top{
         width: auto;
