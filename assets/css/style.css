@@ -11,8 +11,12 @@
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+.third-card {
+width: 100%;
 }
 
 .overlay{
@@ -100,8 +104,6 @@ transition: .8s ease;
 }
 
 .left-side h1{
-    
-    font-family: Roboto;
     font-weight: 700;
     font-size: 72px;
     line-height: 82px;
@@ -112,6 +114,8 @@ transition: .8s ease;
 span{
     color: #FF8A56;
 }
+
+
 
 a:hover{
     text-decoration: underline;
@@ -176,12 +180,11 @@ cursor: pointer;
 .services-details{
     display: flex;
     justify-content: space-around;
-    padding-top: 5%;
+    padding-top: 40px;
     width: 100%;
 }
 
 .services h6{
-    font-family: Roboto;
     font-weight: 700;
     line-height: 82px;
     letter-spacing: 2px;
@@ -192,7 +195,6 @@ cursor: pointer;
 
 .services h1{
     text-align: center;
-    font-family: Roboto;
     font-weight: 700;
     font-size: 35px;
     width: 100%;
@@ -375,7 +377,7 @@ width: 52px;
   
  
   .view-all-projects pre{
-    font-family: Roboto;
+    /* font-family: Roboto; */
     font-size: 54px;
   }
 
@@ -409,6 +411,17 @@ width: 52px;
     justify-content: space-around;
 }
 
+
+
+.text-and-article-section .blog{
+    color: #fff;
+    width: 400px;
+    padding-top: 40px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
 .blogs-section .left-side a{
    
     font-weight: 400;
@@ -429,14 +442,9 @@ width: 52px;
     
 }
 
-.blog{
-    color: #fff;
-    width: 400px;
-    height: 150px;
-  border-bottom: 1px solid #ddd;
-  padding: 20px 20px 20px 20px;
 
-}
+
+
 
 
 
@@ -604,13 +612,14 @@ flex: 1;
 
 .heading{
     font-size: 35px;
-    /* text-align: center; */
+    font-weight: 700;
     padding-left: 25px;
 }
 
 
 .experience{
     font-size: 35px;
+    font-weight: 700;
    
 }
 
@@ -652,12 +661,16 @@ flex: 1;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    padding-bottom: 12px;
    
     
 }
 
+
+
 .img-and-text{
     display: flex;
+    justify-content: space-around;
 }
 
 .Testimonials-section .left-side img{
@@ -672,17 +685,20 @@ flex: 1;
    
 }
 
+/* bura bax */
+
 .right-side-botton{
     display: flex;
     flex-direction: column;
-    padding-top: 66px;
+    
+    
 }
 .right-side-center small{
     font-weight: 700;
     line-height: 20px;
     display: flex;
     align-items: flex-end;
-    padding-top: 100px;
+   
     font-size: 22px;
 }
 
@@ -705,6 +721,7 @@ font-size: 25px;
 }
 
 .wots h2{
+    font-weight: 700;
     padding-top: 15px;
     padding-left: 50px;
     font-size: 54px;
@@ -714,8 +731,9 @@ font-size: 25px;
 .img-and-text .right-side{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     
-    padding-left: 120px;
+    
 }
 
 .img-and-text .right-side small{
@@ -769,15 +787,7 @@ font-size: 25px;
 color: #fff;
 }
 
-.info-right{
-    display: flex;
-    
-    
-    flex-basis: 60%;
-    
 
-    justify-content: space-evenly;
-}
 
 .info-right-left, .info-right-center, .info-right-last{
     padding: 12px;
@@ -802,7 +812,7 @@ padding: 12px;
 
 
 .info-smth abbr{
-color: #fff;
+color: #8A95AD;
 }
 
 .info-smth p{
@@ -815,6 +825,7 @@ color: #fff;
 .faq-section {
     background-color: #000;
     padding-top: 20px;
+    
 }
 
 
@@ -822,6 +833,7 @@ color: #fff;
     text-align: center;
     color:#FF8A56;
     font-size: 22px;
+    font-weight: 700;
 }
 
 .faq-section h1 {
@@ -838,11 +850,30 @@ justify-content: space-around;
 padding-top: 12px;
 }
 
-.faq-text-section .blog {
-    display: flex;
+
+
+.faq-text-section .blog{
+ display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+
+    color: #fff;
+    width: 400px;
+    padding-top: 60px ;
+  border-bottom: 1px solid #ddd;
+  
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -875,8 +906,9 @@ padding-top: 12px;
 
 
 .info-bottom{
-    padding-top: 150px;
-
+    display: flex;
+    align-items: center;
+    height: 400px;
     width: 1394px;
 }
 
@@ -889,7 +921,7 @@ padding-top: 12px;
 
 
 .info-bottom > .info-left {
-    flex-basis: 40%;
+    flex-basis: 60%;
    
 }
 
@@ -901,8 +933,8 @@ padding-top: 12px;
 .info-right{
     display: flex;
     
-    padding: px;
-    flex-basis: 50%;
+    
+    flex-basis: 40%;
     
 
     justify-content: space-between;
@@ -920,6 +952,29 @@ padding-top: 30px;
 .info-right-last a{
 padding-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -960,15 +1015,15 @@ padding-top: 30px;
       }
     .content .left-side h1{
 
-        font-size: 32px;
-    line-height: 32px;
-    letter-spacing: 2px;
+        font-size: 42px;
+    line-height: 52px;
     font-weight: 700;
         
     }
 
     .content >.left-side{
         text-align: center;
+        padding-top: 20px;
     }
 
     .trusted-by .slide{
@@ -981,6 +1036,11 @@ padding-top: 30px;
     width: 345px;
    
 }
+
+.content  .right-side{
+    margin: 0 auto;
+}
+
 
 .container{
    padding: 20px;
@@ -995,6 +1055,7 @@ padding-top: 30px;
 .services-details{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .services-details img{
     width: 40px;
@@ -1034,6 +1095,7 @@ padding-top: 30px;
     padding: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -1045,15 +1107,14 @@ padding-top: 30px;
 
 
 .projects-card-section .card{
-    width: 0%;
-    height: 0%;
-    max-width: 0%;
+   
     padding: 0%;
     margin: 0%;
 }
 
 .view-all-projects{
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 0%;
     margin: 0%;
 }
@@ -1061,9 +1122,10 @@ padding-top: 30px;
 .view-all-projects pre{
     margin: 0%;
     padding: 0%;
-    width: 30px;
+    text-align: center;
+    /* width: 30px;
     font-size: 0px;
-    line-height: 50px;
+    line-height: 50px; */
 }
 
 
@@ -1079,6 +1141,7 @@ padding-top: 30px;
 .projects-text-section{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .projects-text-section h6{
     display: flex;
@@ -1127,6 +1190,7 @@ padding-top: 30px;
 .pds-image{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0%;
     
 }
@@ -1187,7 +1251,8 @@ padding-top: 30px;
 
     }
     .Testimonials-section .left-side img{
-        width: 300px;
+        width: 450px;
+        padding: 0;
     }
 
     .img-and-text {
@@ -1200,7 +1265,12 @@ padding-top: 30px;
 
     .img-and-text .right-side-center small {
         font-size: 30px;
+        padding-top: 20px;
        
+    }
+
+    .right-side-botton{
+        padding-top: 30px;
     }
  
     .img-and-text .right-side{
@@ -1220,15 +1290,7 @@ padding-top: 30px;
     }
 
 
-    .info-right{
-
-
-width: 350px;
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-       
-    }
+   
 
 
     .educationandwork{
@@ -1268,6 +1330,8 @@ align-items: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
 }
 
 
@@ -1280,9 +1344,10 @@ align-items: flex-end;
 .info-left small{
     padding-left: 20px;
 }
-.info-right{
+
+/* .info-right{
     width: 100%;
-  }
+  } */
 
   .projects-section h6{
     padding: 0%;
@@ -1297,6 +1362,8 @@ align-items: flex-end;
     display: flex;
     flex-direction: column;
     width: 25px;
+    height: 300px;
+    align-items: flex-start;
   }
 
 
@@ -1337,7 +1404,43 @@ align-items: flex-end;
     padding: 0;
 }
 
+
+.info-bottom > .info-left{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/* .left-side p{
+    font-size: 20px;
+    line-height: 20px;
+} */
+
+
+
+
+
+
+
+
+.blogs-section .right-side{
+    align-items: center;
+}
+
+
+.info-right{
+    width: 400px;
+    text-align: end;
+}
+
+
+
   }
+
+
 
 
   
@@ -1448,6 +1551,7 @@ align-items: flex-end;
 .services-details{
     display: flex;
     flex-direction: column;
+    
 }
 .services-details img{
     width: 40px;
@@ -1484,6 +1588,7 @@ align-items: flex-end;
 .projects-card-section{
     display: block;
     flex-direction: column;
+    
     padding: 0%;
 }
 
@@ -1512,9 +1617,9 @@ align-items: flex-end;
 .view-all-projects pre{
     margin: 0%;
     padding: 0%;
-    width: 30px;
-    font-size: 0px;
-    line-height: 50px;
+    width: 30px; 
+     font-size: 0px;
+    line-height: 50px; 
 }
 
 
@@ -1858,7 +1963,7 @@ align-items: flex-end;
    
    .services-details img{
        width: 40px;
-       
+      
       
    }
    
@@ -2064,7 +2169,7 @@ align-items: flex-end;
    
   
    .info-bottom{
-    width: 800px;
+    width: 730px;
    }
    
    .info-left p{
@@ -2234,7 +2339,7 @@ ul {
 
 
 
-
+ 
 
 
 
